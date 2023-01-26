@@ -1,0 +1,10 @@
+.ipsLayout_container{ background:#ffffff;}
+header>.ipsLayout_container{
+  background:rgba(0,0,0, 0.0) !important;
+}
+footer>.ipsLayout_container{
+  background:rgba(0,0,0, 0.0) !important;
+}
+nav>.ipsLayout_container{
+  background:rgba(0,0,0, 0.0) !important;
+}

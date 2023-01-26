@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   <style>
+      body{
+         background-color:rgba(8, 9, 9, 0.877);
+         text-align: center;
+         color: yellow;
+         margin: auto;
+         
+      }
+      h1{
+         background-color: orange;
+         color: yellow;
+         height: 50px;
+         width: 410px;
+         text-align: left;
+         margin: auto;
+      }
+      label{
+         margin: auto;
+         height: 50px;
+         width: 410px;
+      }
+   </style>
+ </head>
+ <body>
+    <h1>Sign up</h1>
+    <form style="text-align:center;">
+        <label for="name">First Name:</label>
+         <input type="text" placeholder="Enter First Name" id="name">
+        <br>
+        
+        <label for="name2">Last Name</label> 
+        <input type="text" placeholder="Enter last Name" id="name2">
+        <br>
+        
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <br>
+        
+        <label for="">Gender </label>
+        <input type="radio" id="M">Male
+        <input type="radio" id="F">Female
+        <br>
+        
+        <label id="">Country</label>
+        <select>
+             <option>IND</option>
+             <option>USA</option>
+             <option>UK</option>
+        </select>
+        <br>
+        
+        <label for="email2">Email</label>
+        <input type="email" placeholder="Enter E-mail" id="email2">
+        <br>
+        
+        <label for="Num">Phone</label>
+        <input type="number" placeholder="Enter Phone" id="Num">
+        <br>
+        
+        <label for="Pas">Password</label>
+        <input type="Password" id="Pas">
+        <br>
+        
+        <label for="ConfPas">Confirm Password</label>
+        <input type="Password" id="ConfPas">
+        <br>
+        
+        <input type="checkbox" style="text-align: right;">I agree to the Term of use
+        <br>
+        <br>
+        <div style="background-color: orange; height: 50px;width: 410px;margin: auto;text-align: right;">
+        <input type="button" value="submit" style="background-color:green;height: 30px;width: 50px;margin: auto;">
+        <input type="button" value="cancel" style="background-color:red;height: 30px;width: 50px;margin: auto;">
+      </div>
+
+    </form>
+    
+ </body>
+ </html>
