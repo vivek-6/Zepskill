@@ -1,0 +1,45 @@
+
+/* *{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Election_Commission_of_India_logo.svg/300px-Election_Commission_of_India_logo.svg.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.eci{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Election_Commission_of_India_logo.svg/300px-Election_Commission_of_India_logo.svg.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: rgb(4, 128, 39);
+    padding: 10px;
+    text-align: center;
+    color: aqua;
+    /* <p style="background-image:url(./images/Bharatiya_Janata_Party_logo.svg.png);width: 50px; height: 500px;"> xdzfvb </p> */
+}
+.content{
+   background-color: coral;
+   color: darkgray;
+}
+.footer{
+    background-color: rgba(238, 123, 15, 0.932);
+    color: whitesmoke;
+}
+.don{
+    background-color: blue;
+    color: azure;
+}
+h1{
+    color: black;
+    padding: 30px;
+}
+p{
+    font-style:italic ;
+
+}
+ iframe{
+    viewport-fit: centre;
+ }
